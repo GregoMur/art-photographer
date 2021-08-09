@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Art-Photografer - фотосъемка</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="header-container__menu">
+			<div class="poiter">
+				<div class="top"></div>
+				<div id="menu"></div>
+				<div class="bottom"></div>
+			</div>
+			
+			<ul>
+				<li><a href="#">Обо мне</a></li>
+				<li><a href="#myWork">Мои работы</a></li>
+				<li><a href="#contacts">Как со мной связаться?</a></li>
+			</ul>
+		</div>
+	<div class="header-container">
+		<div class="header-container__img"></div>
+		<div class="header-container__logo">
+			<div class="header-container__line header-container__lineTop_hidden"></div>
+			<div class="header-container__line header-container__lineTopRight_hidden"></div>
+			<div class="header-container__line header-container__lineRight_hidden"></div>
+			<canvas width="120" height="150" id="can"></canvas>
+		</div>
+		<div class="header-container__text header-container__text_hidden">
+			ART-PHOTOGRAFER
+		</div>
+	</div>
+
+	<div class="main-container">
+		<div class="main-container__img main-container__img_hidden">
+			<img src="img/big/first.jpg" alt="">
+		</div>
+		<div class="main-container__strokes">
+			<div class="main-container__from-left-stroke">
+			</div>
+			<div class="main-container__from-right-stroke">
+			</div>
+		</div>
+		<div class="main-container__photo-gallery" id="myWork">
+			<div class="main-container__previus-img">
+					<i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+			</div>
+			<img src="" alt="">
+			<div class="main-container__next-img">
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+
+	</div>
+	<div class="clear"></div>
+	<div class="footer">
+		<div class="contacts" id="contacts">
+				<img src="img/icons/instagram.png" width="50" height="50" alt="">
+				<img src="img/icons/vk.png" width="50" height="50" alt="">
+				<img src="img/icons/telegram.png" width="50" height="50" alt="">
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+	<script src="script/DrawCameraImg.js"></script>
+	<script src="script/jumboBar.js"></script>
+	<script src="script/script.js"></script>
+	<script src="script/slide_menu.js"></script>
+</body>
+</html>
